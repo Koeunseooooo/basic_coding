@@ -138,11 +138,24 @@ int main()
 int main()
 {
     int a=100;
-    int b=20;
     int c=2019;
-    int d=2000;
-    printf("%d - %d = %d\n",a,b,a-=b);
-    printf("%d - %d = %d\n",c,d,c-=d);
+    printf("%d - %d = %d\n",a,20,a-=20);
+    printf("%d - %d = %d\n",c,2000,c-=2000);
 }
 */
 
+/// 7강
+
+// 문제3
+/*
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+    char name[20]="hello";
+    // name="anna";
+    printf("%s",name);
+    return 0;
+}
+*/
+// https://dojang.io/mod/page/view.php?id=330
