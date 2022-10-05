@@ -6,7 +6,7 @@ int check(int i, int j)
 	
 	int c[13]={0,31,28,31,30,31,30,31,31,30,31,30,31};
 	
- 	if(c[i]<j || j<1)	res=0;
+ 	if(c[i]<j || j<1 || i>12)	res=0;
  	else		res=1;
 
 	return res;
@@ -15,7 +15,7 @@ int check(int i, int j)
 int main(void)
 {
 	int c[100]={0,};
-	int i=0,j=0,k=0,h=0,t=0,u=0;
+	int i=0,j=0;
 	char ch=0;
 	
 	scanf("%d %d", &i, &j);
